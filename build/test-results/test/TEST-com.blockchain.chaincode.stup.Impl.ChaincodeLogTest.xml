@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.blockchain.chaincode.stup.Impl.ChaincodeLogTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-12-04T18:21:33" hostname="ubuntu" time="0.579">
+  <properties/>
+  <testcase name="testGetChaincodeID" classname="com.blockchain.chaincode.stup.Impl.ChaincodeLogTest" time="0.459"/>
+  <testcase name="testRun_query" classname="com.blockchain.chaincode.stup.Impl.ChaincodeLogTest" time="0.098"/>
+  <testcase name="testRun_log" classname="com.blockchain.chaincode.stup.Impl.ChaincodeLogTest" time="0.015"/>
+  <testcase name="testRun_init" classname="com.blockchain.chaincode.stup.Impl.ChaincodeLogTest" time="0.005"/>
+  <system-out><![CDATA[CHAVE { ChainCode_PATRICK-CLSC-TEST_KEY_1 } | VALOR { TEST_LOG_MESSAGE_1 }
+CHAVE { ChainCode_PATRICK-CLSC-TEST_KEY_2 } | VALOR { TEST_LOG_MESSAGE_2 }
+CHAVE { ChainCode_PATRICK-CLSC-TEST_KEY_3 } | VALOR { TEST_LOG_MESSAGE_3 }
+CHAVE { ChainCode_PATRICK-CLSC-TEST_KEY_4 } | VALOR { TEST_LOG_MESSAGE_4 }
+CHAVE { ChainCode_PATRICK-CLSC-TEST_KEY_5 } | VALOR { TEST_LOG_MESSAGE_5 }
+]]></system-out>
+  <system-err><![CDATA[Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleQuery
+INFO: *** Query: For key 'ChainCode_PATRICK-CLSC-TEST_KEY_1, value is 'TEST_LOG_MESSAGE_1' ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleQuery
+INFO: *** Query: For key 'ChainCode_PATRICK-CLSC-TEST_KEY_2, value is 'TEST_LOG_MESSAGE_2' ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleQuery
+INFO: *** Query: For key 'ChainCode_PATRICK-CLSC-TEST_KEY_3, value is 'TEST_LOG_MESSAGE_3' ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleQuery
+INFO: *** Query: For key 'ChainCode_PATRICK-CLSC-TEST_KEY_4, value is 'TEST_LOG_MESSAGE_4' ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleQuery
+INFO: *** Query: For key 'ChainCode_PATRICK-CLSC-TEST_KEY_5, value is 'TEST_LOG_MESSAGE_5' ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> log | args -> [TEST_KEY_1, TEST_LOG_MESSAGE_1]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_1,TEST_LOG_MESSAGE_1) ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> log | args -> [TEST_KEY_2, TEST_LOG_MESSAGE_2]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_2,TEST_LOG_MESSAGE_2) ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> log | args -> [TEST_KEY_3, TEST_LOG_MESSAGE_3]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_3,TEST_LOG_MESSAGE_3) ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> log | args -> [TEST_KEY_4, TEST_LOG_MESSAGE_4]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_4,TEST_LOG_MESSAGE_4) ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> log | args -> [TEST_KEY_5, TEST_LOG_MESSAGE_5]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_5,TEST_LOG_MESSAGE_5) ***
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stub.AbstractChaincode run
+INFO: Greetings from run(): function -> init | args -> [TEST_KEY_1, TEST_LOG_MESSAGE_1]
+Dec 04, 2017 4:21:33 PM com.blockchain.chaincode.stup.Impl.ChaincodeLog handleLog
+INFO: *** Storing log message (K,V) -> (ChainCode_PATRICK-CLSC-TEST_KEY_1,TEST_LOG_MESSAGE_1) ***
+]]></system-err>
+</testsuite>
